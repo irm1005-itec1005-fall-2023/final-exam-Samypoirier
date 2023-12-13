@@ -67,3 +67,249 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+header img{
+  display: flex;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 100px;
+  border-radius: 10px;
+width: 50px;
+
+background-color: black;
+}
+
+header button{
+display: flex;
+
+margin-left: 1150px;
+padding: 15px;
+width: 150px;
+border-radius: 10px;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: smaller;
+}
+
+header button:hover{
+  background-color: rgb(56, 55, 55);
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-container p {
+  color: lightslategray;
+  font-size: 10px;
+  text-align: center;
+}
+
+.box-container {
+  padding: 50px;
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.box:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-color: mediumpurple;
+  padding: 10px;
+  width: 200px;
+  height: 100%;
+border-radius: 10px;
+  
+}
+
+.box:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+  padding: 10px;
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 220px;
+  margin-top: -200px;
+align-self: flex-end;
+  background-color: lightpink;
+}
+
+.box:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+  padding: 10px;
+  width: 80px;
+  height: 100px;
+  border-radius: 10px;
+  margin-left: 320px;
+  margin-top: -100px;
+align-self: flex-end;
+  background-color: rgb(248, 163, 207);
+}
+
+.box:nth-child(4){
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 10px;
+  width: 180px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 10px;
+  margin-left: 220px;
+  margin-top: 5px;
+
+}
+
+.box:nth-child(5){
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 10px;
+  width: 180px;
+  height: 100px;
+  background-color: rgb(202, 229, 238);
+  border-radius: 10px;
+  margin-left: 420px;
+  margin-top: -205px;
+}
+
+.box:last-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  padding: 10px;
+  width: 180px;
+  height: 100px;
+background-color: mediumpurple;
+  border-radius: 10px;
+  margin-left: 420px;
+  margin-top: 5px;
+}
+
+.hero-container {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+
+.hero-container img{
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  
+}
+
+.textcontainer{
+  display: flex;
+  padding: 10px;
+  width: 500px;
+}
+
+.textcontainer h2{
+  font-size: smaller;
+}
+
+.textcontainer p {
+  display: flex;
+  text-align: left;
+}
+
+.textcontainer button{
+  padding: 15px;
+  width: 150px;
+  border-radius: 10px;
+  
+    background-color: rgb(255, 19, 212);
+    color: white;
+    text-align: center;
+    justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: smaller;
+}
+
+.textcontainer button:hover{
+  background-color:rgb(234, 58, 202) ;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.Tutorialcontainer{
+  display: flex;
+justify-content: center;
+  align-items: center;
+width: 100%px;
+height: 700px;
+background-color: rgb(255, 255, 255);
+}
+
+.tutorial3{
+  display: flex;
+  width: 250px;px;
+  height: 300pxpx;
+margin-top: -200px;
+margin-left: -650px;
+border-radius: 10px;
+}
+
+.callcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: pink;
+width: 100%;
+border-radius: 10px;
+}
+
+.callcontainer button{
+  padding: 15px;
+width: 150px;
+border-radius: 10px;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: smaller;
+}
+
+.callcontainer button:hover{
+  background-color: rgb(56, 55, 55);
+}
+
+footer img{
+  display: flex;
+  padding: 10px;
+  margin-left: 70px;
+  margin-top: 100px;
+  border-radius: 10px;
+width: 50px;
+}
+
+footer p{
+  color: gray;
+  text-align: end;
+}
