@@ -313,3 +313,10 @@ footer p{
   color: gray;
   text-align: end;
 }
+@media screen and (max-width: 600px){
+  .container {width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+}
